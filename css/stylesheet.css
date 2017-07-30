@@ -1,0 +1,90 @@
+header {display: flex;
+max-width: 940px;
+margin: 15px;
+padding-left: 80px;
+}
+
+/* This class is for the top images on the borough pages */
+.top {margin-left: 5%;}
+
+nav {background-color: black;
+    padding: 5px;
+    text-align: center;    
+}
+
+a {font-family: font-family'Passion One', cursive;
+    text-decoration: none;
+    color: #48517D;
+}
+
+h1 {font-family: 'Passion One', cursive;
+width: 100%;
+font-size: 550%;
+color: #48517D;
+text-shadow: 4px 4px black;
+}
+
+/* Broke these up with ID's since I had to account for different text and sizes */
+#summer {text-align: center;
+    margin: 2% 0px 0px 20%;
+}
+#bronx {text-align: center;
+    margin: 0px 0px 0px 20%;
+}
+#queens {text-align: center;
+    margin: 0px 20px 0px 25%;
+}
+#manhattan {text-align: center;
+    margin: 0px 0px 0px 15%;
+}
+
+
+p {font-family: 'Roboto', sans-serif;}
+
+body {width: 90%;
+    margin: auto;
+    min-width: 800px;
+    background-color: #228B22;
+}
+
+li {display: inline-block;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;}
+    
+img {height: 200px;}
+
+
+/* I used flex so that I wouldn't have to worry about margin between boxes */
+.section {display: flex;
+max-width: 940px;
+margin: 15px;
+margin-left: 200px;
+}
+
+.content {padding-left: 50px;
+}
+
+.images {height: 200px;}
+
+/* The highline text did not align with the other activity content due to the image size so added margin */
+.high {margin-right: 3%;}
+
+
+/* This footer has been added to all pages */
+footer {height: 8%;
+    color: #48517D;
+    background-color: black;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+/* This allows the image on the homepage to not be constrained by the size restrictions on img */
+.pic img {
+    width: 100%;
+    height: 600px;
+}
+
+
